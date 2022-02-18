@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LISA"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="446dp"
+                app:srcCompat="@drawable/lisa" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ลลิษา มโนบาล ชื่อเดิม ปราณปรียา มโนบาล ชื่อในการแสดงว่า ลิซ่า เป็นแร็ปเปอร์ นักร้อง และนักเต้นชาวไทยซึ่งทำงานหลักในประเทศเกาหลีใต้ เป็นสมาชิกของแบล็กพิงก์ เกิร์ลกรุปเกาหลีใต้สังกัดวายจีเอนเตอร์เทนเมนต์ ลิซ่าเปิดตัวเป็นศิลปินเดี่ยวกับซิงเกิลอัลบั้มชื่อ ลลิษา ในเดือนกันยายน พ.ศ. 2564"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="508dp"
+                app:srcCompat="@drawable/lisa2" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
